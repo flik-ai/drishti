@@ -1,4 +1,4 @@
-# drishti
+# Drishti
 
 <img width="1318" height="741" alt="image" src="https://github.com/user-attachments/assets/c1225b5d-1f3e-4239-a1d6-14ffd5307027" />
 
