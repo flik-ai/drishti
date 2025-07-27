@@ -16,7 +16,7 @@ from google.cloud import pubsub_v1
 # --- Configuration Constants ---
 APP_NAME = "security_system"
 USER_ID = "security_operator"
-MODEL_NAME = "gemini-2.0-flash"
+MODEL_NAME = "gemini-2.5-flash"
 
 # --- Pydantic Models ---
 
