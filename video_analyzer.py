@@ -6,6 +6,7 @@ import warnings
 import json
 import re
 
+
 # Ignore all warnings
 warnings.filterwarnings("ignore")
 import logging
@@ -19,7 +20,7 @@ def run_gemini_analysis_sync(video_bytes: bytes) -> dict:
     A synchronous function to run the Gemini analysis.
     """
     try:
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-2.5-flash')
         analysis_start_time = time.time()
         
         response = model.generate_content(
